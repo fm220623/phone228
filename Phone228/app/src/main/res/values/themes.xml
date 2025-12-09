@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Phone228" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.FinanceManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+    </style>
+
 </resources>
