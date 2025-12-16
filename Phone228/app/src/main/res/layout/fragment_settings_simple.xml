@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Настройки"
+        android:text="⚙️ Настройки"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp" />
@@ -18,16 +18,20 @@
         android:layout_height="wrap_content"
         android:text="Ваше имя:" />
 
+    <!-- ИЗМЕНЕНИЕ ЗДЕСЬ: поддержка русского и любых символов -->
     <EditText
         android:id="@+id/edit_user_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:imeOptions="actionDone" />
 
     <Switch
         android:id="@+id/switch_notifications"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Уведомления о лимитах" />
+        android:text="Уведомления о транзакциях" />
 
 </LinearLayout>

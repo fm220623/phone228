@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Категории расходов -->
+    <string-array name="categories_expense">
+        <item>🍔 Еда</item>
+        <item>🚗 Транспорт</item>
+        <item>🏠 Жилье</item>
+        <item>🛍️ Покупки</item>
+        <item>🏥 Здоровье</item>
+        <item>🎉 Развлечения</item>
+        <item>📚 Образование</item>
+        <item>💼 Бизнес</item>
+        <item>⚡ Прочее</item>
+    </string-array>
+
+    <!-- Категории доходов -->
+    <string-array name="categories_income">
+        <item>💰 Зарплата</item>
+        <item>💼 Фриланс</item>
+        <item>📈 Инвестиции</item>
+        <item>🎁 Подарок</item>
+        <item>💸 Возврат</item>
+        <item>💡 Прочее</item>
+    </string-array>
+</resources>

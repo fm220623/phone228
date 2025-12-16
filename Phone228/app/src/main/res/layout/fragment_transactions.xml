@@ -12,7 +12,6 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <!-- Статистика -->
     <TextView
         android:id="@+id/text_statistics"
         android:layout_width="match_parent"
@@ -23,7 +22,6 @@
         android:background="#F0F0F0"
         android:textSize="16sp" />
 
-    <!-- Кнопка добавления -->
     <Button
         android:id="@+id/btn_add_transaction"
         android:layout_width="match_parent"
@@ -31,7 +29,7 @@
         android:text="➕ Добавить транзакцию"
         android:layout_marginBottom="20dp" />
 
-    <!-- Список транзакций -->
+    <!-- Убедитесь, что это androidx.recyclerview.widget.RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
