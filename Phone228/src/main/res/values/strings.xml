@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основное -->
+    <string name="app_name">Бухлагатер</string>
+
+    <!-- Навигация -->
+    <string name="nav_dashboard">Сводка</string>
+    <string name="nav_transactions">Операции</string>
+    <string name="nav_budgets">Бюджеты</string>
+    <string name="nav_settings">Настройки</string>
+
+    <!-- Кнопки -->
+    <string name="add_transaction">Добавить транзакцию</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+
+    <!-- Типы транзакций -->
+    <string name="income">Доход</string>
+    <string name="expense">Расход</string>
+
+    <!-- Статистика -->
+    <string name="total_income">Доходы</string>
+    <string name="total_expense">Расходы</string>
+    <string name="balance">Баланс</string>
+    <string name="transactions_count">Всего транзакций</string>
+
+    <!-- Настройки -->
+    <string name="user_name">Имя пользователя</string>
+    <string name="notifications">Уведомления</string>
+
+    <!-- Категории -->
+    <string name="select_category">Выберите категорию</string>
+    <string name="category_food">Еда</string>
+    <string name="category_transport">Транспорт</string>
+    <string name="category_housing">Жилье</string>
+    <string name="category_shopping">Покупки</string>
+    <string name="category_salary">Зарплата</string>
+
+    <!-- Бюджеты -->
+    <string name="set_budget_limit">Установить лимит</string>
+    <string name="budget_limit_hint">Лимит в рублях</string>
+    <string name="current_budgets">Текущие лимиты</string>
+
+    <!-- Сообщения -->
+    <string name="transaction_added">Транзакция добавлена</string>
+    <string name="transaction_deleted">Транзакция удалена</string>
+
+    <!-- Новые строки для фото -->
+    <string name="add_photo">Добавить фото</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="remove_photo">Удалить фото</string>
+    <string name="photo_added">Фото добавлено</string>
+    <string name="photo_removed">Фото удалено</string>
+    <string name="no_photo">Нет фото</string>
+</resources>

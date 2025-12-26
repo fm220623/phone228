@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Детали транзакции"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Тип транзакции -->
+        <TextView
+            android:id="@+id/text_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тип: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Категория -->
+        <TextView
+            android:id="@+id/text_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Категория: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Сумма -->
+        <TextView
+            android:id="@+id/text_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сумма: "
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Дата -->
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата: "
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Описание -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Описание:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="#F5F5F5" />
+
+        <!-- Фото (если есть) -->
+        <TextView
+            android:id="@+id/text_photo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Прикрепленное фото:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="#F0F0F0"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/text_no_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Фото не прикреплено"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Кнопка закрытия -->
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Закрыть"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
